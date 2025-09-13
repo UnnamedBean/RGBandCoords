@@ -26,4 +26,5 @@ rgb_color = get_pixel_color(mousepos[0], mousepos[1])
 time.sleep(0.1)
 print(f"The current mouse position is: {mousepos}")
 print(f"The color underneath your mouse is: {rgb_color}")
-
+print(f"Closing in 10 seconds")
+time.sleep(10)
